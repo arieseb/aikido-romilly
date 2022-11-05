@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+    background: #9fafaf;
+}
+
+.img-size {
+    height: 120px;
+    width: auto;
+}
+
+.sensei-size {
+    height: 355px;
+    width: 289px;
+}
+
+.table-display {
+    width: 80%;
+}
+
+.banner {
+    min-height: calc(132px + 33px);
+    max-height: calc(132px + 33px);
+}
+
+@media screen and (max-width: 945px) {
+    .table-display {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    h1 {
+        display: none;
+    }
+
+    header{
+        margin-bottom: 1rem;
+    }
+
+    p, li, td {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    p, li, td {
+        font-size: 0.6rem;
+    }
+
+    caption {
+        font-size: 0.8rem;
+    }
+}
