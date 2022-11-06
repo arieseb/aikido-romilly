@@ -37,13 +37,13 @@ body {
         margin-bottom: 1rem;
     }
 
-    p, li, td {
+    p, li, td, a.btn-fb {
         font-size: 0.8rem;
     }
 }
 
 @media screen and (max-width: 445px) {
-    p, li, td {
+    p, li, td, a.btn-fb {
         font-size: 0.6rem;
     }
 
