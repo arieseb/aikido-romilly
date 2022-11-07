@@ -38,16 +38,13 @@ body {
     }
 
     p, li, td, a.btn-fb {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
-}
-
-@media screen and (max-width: 445px) {
-    p, li, td, a.btn-fb {
-        font-size: 0.6rem;
-    }
-
+    
     caption {
         font-size: 0.8rem;
     }
 }
+
+
+
